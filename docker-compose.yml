@@ -1,0 +1,6 @@
+services:
+  terraformwebapi:
+    image: ${DOCKER_REGISTRY-}terraformwebapi
+    build:
+      context: .
+      dockerfile: terraformWebAPI/Dockerfile
